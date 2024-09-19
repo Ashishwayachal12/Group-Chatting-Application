@@ -76,7 +76,7 @@ Feel free to modify the content according to your preferences or add any additio
 
 For any questions or inquiries, please contact me-
 
-     ashishwayachal14@gmail.com.
+     ashishwayachal14@gmail.com
 
 
 
