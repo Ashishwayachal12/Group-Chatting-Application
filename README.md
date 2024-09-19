@@ -41,7 +41,7 @@ The core components of the application include:
 
    Navigate to the directory containing the source code and compile it using javac:
       
-        javac groupchattingapplication/*.java
+     javac groupchattingapplication.java
 3.Run the Clients:
 
     java groupchattingapplication.UserOne
@@ -49,7 +49,7 @@ The core components of the application include:
 
 ## You can run additional client instances by creating new classes similar to UserOne and UserTwo with different names.
 
-Usage
+##Usage:
 
 After starting the server, run the client applications. Each client will connect to the server and be able to send and receive messages.
 
@@ -57,18 +57,24 @@ Messages sent by one client will be broadcasted to all connected clients in real
 
 Implementation Details:
 
-Server: The server uses ServerSocket to accept incoming client connections. Each client is handled in a separate thread to manage concurrent interactions. The server maintains a list of active clients and broadcasts messages to all connected clients.
+##Server:
 
-Client: The client uses Socket to connect to the server. It includes a graphical interface built with Java Swing and AWT for sending and receiving messages. Each client runs in its own thread to handle incoming messages asynchronously.
+The server uses ServerSocket to accept incoming client connections. Each client is handled in a separate thread to manage concurrent interactions. The server maintains a list of active clients and broadcasts messages to all connected clients.
 
-Threads and I/O: The application uses threads to handle multiple clients concurrently. BufferedReader and BufferedWriter are used for reading from and writing to sockets.
+##Client:
+
+The client uses Socket to connect to the server. It includes a graphical interface built with Java Swing and AWT for sending and receiving messages. Each client runs in its own thread to handle incoming messages asynchronously.
+
+##Threads and I/O:
+
+The application uses threads to handle multiple clients concurrently. BufferedReader and BufferedWriter are used for reading from and writing to sockets.
 
 
 Feel free to modify the content according to your preferences or add any additional information relevant to your project.
 
-Contact:
+##Contact:
 
-For any questions or inquiries, please contact your-
+For any questions or inquiries, please contact me-
 
      ashishwayachal14@gmail.com.
 
